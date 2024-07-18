@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d93f053.css",
-    "main.js": "/static/js/main.33f06fe9.js",
-    "static/media/video.mp4": "/static/media/video.5d5ca7149a22af051c59.mp4",
-    "static/media/logo.png": "/static/media/logo.caea3f2340167537eafc.png",
-    "static/media/sig.png": "/static/media/sig.0e4c33dc77381be86be2.png",
-    "index.html": "/index.html",
-    "main.5d93f053.css.map": "/static/css/main.5d93f053.css.map",
-    "main.33f06fe9.js.map": "/static/js/main.33f06fe9.js.map"
+    "main.css": "/sandoog-landing/static/css/main.5d93f053.css",
+    "main.js": "/sandoog-landing/static/js/main.1d91987e.js",
+    "static/media/video.mp4": "/sandoog-landing/static/media/video.5d5ca7149a22af051c59.mp4",
+    "static/media/logo.png": "/sandoog-landing/static/media/logo.caea3f2340167537eafc.png",
+    "static/media/sig.png": "/sandoog-landing/static/media/sig.0e4c33dc77381be86be2.png",
+    "index.html": "/sandoog-landing/index.html",
+    "main.5d93f053.css.map": "/sandoog-landing/static/css/main.5d93f053.css.map",
+    "main.1d91987e.js.map": "/sandoog-landing/static/js/main.1d91987e.js.map"
   },
   "entrypoints": [
     "static/css/main.5d93f053.css",
-    "static/js/main.33f06fe9.js"
+    "static/js/main.1d91987e.js"
   ]
 }
