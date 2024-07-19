@@ -323,6 +323,10 @@ footer span {
   text-align: right;
 }
 
+.ar-video {
+  font-size: 0.9rem;
+  color: teal;
+}
 @media (max-width: 768px) {
   .features {
     flex-direction: column;
@@ -355,6 +359,9 @@ footer span {
   .testimonial .comment {
     width: 60%;
     height: fit-content;
+  }
+  .ar-video {
+    font-size: 0.7rem;
   }
 }
 

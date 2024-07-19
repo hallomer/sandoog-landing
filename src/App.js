@@ -55,7 +55,7 @@ function App() {
             Your browser does not support the video tag.
           </video>
           {i18n.language === 'ar' && (
-            <p style={{ color: 'teal', fontSize: '0.7rem' }}>*الفيديو باللغة الإنجليزية فقط*</p>
+            <p className="ar-video">*الفيديو باللغة الإنجليزية فقط*</p>
           )}
         </div>
         <div className={`features ${i18n.language === 'ar' ? 'rtl' : ''}`}>
