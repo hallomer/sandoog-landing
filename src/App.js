@@ -54,6 +54,9 @@ function App() {
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+          {i18n.language === 'ar' && (
+            <p style={{ color: 'teal', fontSize: '0.7rem' }}>*الفيديو باللغة الإنجليزية فقط*</p>
+          )}
         </div>
         <div className={`features ${i18n.language === 'ar' ? 'rtl' : ''}`}>
           <div className="stack">

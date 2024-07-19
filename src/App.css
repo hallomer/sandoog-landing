@@ -108,6 +108,7 @@ video {
   max-width: 800px;
   margin: 2rem auto;
   border-radius: 1rem;
+  border: 2px solid teal; /* Added border around the video */
 }
 
 .features {
@@ -371,15 +372,17 @@ footer span {
   }
 
   main {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    padding: 1rem;
   }
 
   .hero span {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    padding: 1rem;
   }
 
   .hero .button button {
@@ -393,7 +396,15 @@ footer span {
   }
 
   video {
-    width: 100%;
+    width: 90%;
+  }
+  .testimonial h2 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .CTA-again h2 {
+    font-size: 1.2rem;
   }
 }
 
