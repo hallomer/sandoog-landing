@@ -104,7 +104,7 @@ function App() {
       <footer>
         <span dir="ltr">Hiba's Portfolio Project for Holberton School.</span>
         <div>
-          <span dir="ltr">&copy; {new Date().getFullYear()} Sandoog.</span> 🇸🇩
+          <span dir="ltr">© 2024 Sandoog.</span> 🇸🇩
         </div>
         <div className="footer-social">
           <a href="https://github.com/hallomer/sandoog/" aria-label="GitHub">
