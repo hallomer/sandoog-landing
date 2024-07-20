@@ -26,6 +26,18 @@
   width: auto;
 }
 
+.header .nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .nav a {
+  text-decoration: none;
+  color: teal;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .header .user-action {
   display: flex;
   align-items: center;
@@ -108,7 +120,7 @@ video {
   max-width: 800px;
   margin: 2rem auto;
   border-radius: 1rem;
-  border: 2px solid teal; /* Added border around the video */
+  border: 2px solid teal;
 }
 
 .features {
@@ -327,6 +339,7 @@ footer span {
   font-size: 0.9rem;
   color: teal;
 }
+
 @media (max-width: 768px) {
   .features {
     flex-direction: column;
@@ -374,8 +387,17 @@ footer span {
     height: 3rem;
   }
 
-  .header .user-action .change-lang {
-    font-size: 1rem;
+  .header .nav {
+    gap: 0.6rem;
+    text-align: center;
+  }
+
+  .header .nav a {
+    font-size: 0.6rem;
+  }
+
+  .header .nav .user-action .change-lang {
+    font-size: 0.7rem;
   }
 
   main {

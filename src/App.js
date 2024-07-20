@@ -37,11 +37,15 @@ function App() {
             <img src={logo} alt="Sandoog logo" />
           </a>
         </div>
-        <div className="user-action">
+        <nav className="nav">
+          <a href="#video">{t('watch')}</a>
+          <a href="#features">{t('features')}</a>
+          <div className="user-action">
           <button className="change-lang" onClick={handleLanguageChange}>
             <span className="lang-text">{i18n.language === 'en' ? 'العربية' : 'English'}</span>
           </button>
         </div>
+        </nav>
       </header>
       <main>
         <div className="hero">
@@ -50,15 +54,17 @@ function App() {
           <div className="button">
             <a href="https://sandoog.hallomer.tech/"><button>{t('get_started')}</button></a>
           </div>
-          <video controls>
+          <div id="video">
+            <video controls>
             <source src={video} type="video/mp4" />
-            Your browser does not support the video tag.
+            {t("video_error")}
           </video>
           {i18n.language === 'ar' && (
-            <p className="ar-video">*الفيديو باللغة الإنجليزية فقط*</p>
+            <p className="ar-video">الفيديو باللغة الإنجليزية فقط*</p>
           )}
+          </div>
         </div>
-        <div className={`features ${i18n.language === 'ar' ? 'rtl' : ''}`}>
+        <div id="features" className={`features ${i18n.language === 'ar' ? 'rtl' : ''}`}>
           <div className="stack">
             {repeatedFeatureBoxes.map((box, index) => (
               <div
@@ -98,22 +104,22 @@ function App() {
       <footer>
         <span dir="ltr">Hiba's Portfolio Project for Holberton School.</span>
         <div>
-          <span dir="ltr">© 2024 Sandoog</span> 🇸🇩
+          <span dir="ltr">&copy; {new Date().getFullYear()} Sandoog.</span> 🇸🇩
         </div>
         <div className="footer-social">
-          <a href="https://github.com/hallomer/sandoog/">
+          <a href="https://github.com/hallomer/sandoog/" aria-label="GitHub">
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a href="mailto:hebaaltayeb2@icloud.com">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a href="https://x.com/Hibathepro">
+          <a href="https://x.com/Hibathepro" aria-label="Twitter / X">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="https://www.linkedin.com/in/hibaeltayeb/">
+          <a href="https://www.linkedin.com/in/hibaeltayeb/" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a href="https:discordapp.com/users/hallomer">
+          <a href="https:discordapp.com/users/hallomer" aria-label="Discord">
             <FontAwesomeIcon icon={faDiscord} />
           </a>
         </div>
