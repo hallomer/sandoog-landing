@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Sandoog Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
 
-## Available Scripts
+Welcome to the repository for the Sandoog Landing Page! This project serves as the entry point for the Sandoog platform, providing users with key information about the features offered.
 
-In the project directory, you can run:
+Visit the [Sandoog Landing Page](https://hallomer.github.io/sandoog-landing/).
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. ![Screenshot 1](Screenshot0.png)
+2. ![Screenshot 2](Screenshot1.png)
+3. ![Screenshot 3](Screenshot2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Bilingual Support**: Easily toggle between English and Arabic.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Feature Highlights**: Provides an overview of key features such as income tracking, budget management, and more.
+- **Video Introduction**: Embedded video for a quick introduction to the platform.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Follow these steps to set up the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/sandoog-landing.git
+    cd sandoog-landing
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server**:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+Your landing page should now be running on `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Changing Language**: Click the language button in the navigation bar to switch between English and Arabic.
+- **Viewing Features**: Scroll down or click the "Watch intro" button in the navigation bar to see the highlighted features of the Sandoog platform.
+- **Watching the Introduction Video**: Scroll down or click the "Watch intro" button in the navigation bar to take you to the embedded video.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Translation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project supports bilingual text using the `react-i18next` library. Translations are located in the `src/locales` directory. To add or update translations, modify the respective JSON files:
 
-## Learn More
+- `src/locales/en/translation.json` for English.
+- `src/locales/ar/translation.json` for Arabic.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! Follow these steps to contribute:
 
-### Code Splitting
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).

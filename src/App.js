@@ -60,7 +60,7 @@ function App() {
             {t("video_error")}
           </video>
           {i18n.language === 'ar' && (
-            <p className="ar-video">الفيديو باللغة الإنجليزية فقط*</p>
+            <p className="ar-video">*الفيديو باللغة الانجليزية فقط*</p>
           )}
           </div>
         </div>
