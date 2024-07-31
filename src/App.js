@@ -33,7 +33,7 @@ function App() {
     <div className={`container ${i18n.language === 'ar' ? 'rtl' : ''}`}>
       <header className="header">
         <div className="header-btn">
-          <a href="/" className="logo" title="Sandoog">
+          <a href="/sandoog-landing" className="logo" title="Sandoog">
             <img src={logo} alt="Sandoog logo" />
           </a>
         </div>
