@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/sandoog-landing/static/css/main.a3f7100d.css",
-    "main.js": "/sandoog-landing/static/js/main.d769683a.js",
+    "main.js": "/sandoog-landing/static/js/main.a022d297.js",
     "static/media/video.mp4": "/sandoog-landing/static/media/video.dfb4fba08a7a71a93fd1.mp4",
     "static/media/logo.png": "/sandoog-landing/static/media/logo.caea3f2340167537eafc.png",
     "static/media/sig.png": "/sandoog-landing/static/media/sig.0e4c33dc77381be86be2.png",
     "index.html": "/sandoog-landing/index.html",
     "main.a3f7100d.css.map": "/sandoog-landing/static/css/main.a3f7100d.css.map",
-    "main.d769683a.js.map": "/sandoog-landing/static/js/main.d769683a.js.map"
+    "main.a022d297.js.map": "/sandoog-landing/static/js/main.a022d297.js.map"
   },
   "entrypoints": [
     "static/css/main.a3f7100d.css",
-    "static/js/main.d769683a.js"
+    "static/js/main.a022d297.js"
   ]
 }
